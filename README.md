@@ -41,8 +41,11 @@ There are no missing values in our dataset.
 
 •	Model evaluation on validation data
 
+•	Model testing on test data
+
 
 # Results
 
 I fitted 3 classification models – Logistic Regression, KNN and Decision Tree Classifier- on the training dataset and evaluated the performance of all models on validation dataset.
-Logistic Regression gave the best accuracy (89%) and best recall (46%) on validation dataset and reported to be the best model to predict whether an employee will leave or not.
+Since this is an attrition problem I used recall or sensitivity as the evaluation metric because we are interested in knowing how our model is predicting the employees who leaving.
+Decsion Tree Classifier gave the best recall (55%) on validation dataset and reported to be the best model to predict whether an employee will leave or not.
