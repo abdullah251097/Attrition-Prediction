@@ -18,7 +18,7 @@ Being able to determine factors that lead to attrition, and correspondingly bein
 # Data
 
 The data contains attributes such as Age, Attrition, Business Travel, Department, Education Field, Gender, Environment Satisfaction, Over Time, Martial Status, Monthly Income, Years of Work experience, Years at company, Job Satisfaction etc.
-The dataset suffers from class imbalance where, where approximately 16% of the target variable observations have been classified as ‘0’ and approximately 84% are classified as ‘1’.
+The dataset suffers from class imbalance where, where approximately 16% of the target variable observations have been classified as ‘1’ and approximately 84% are classified as ‘0’.
 There are no missing values in our dataset.
 
 # Workflow
