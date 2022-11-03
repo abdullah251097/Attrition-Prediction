@@ -31,11 +31,11 @@ There are no missing values in our dataset.
   
 •	Feature Engineering
 
-  1.	Label encoding
+  1.	Encoding Binary Variables
   2.	One hot encoding on nominal variables
   3.	Train-Validation-Test split
   4.	Handling Imbalance data using SMOTE(done only on training data)
-  5.	Standardization of train, validation and test data.
+  5.	Standardization only for KNN
   
 •	Model fitting on training data
 
@@ -46,6 +46,6 @@ There are no missing values in our dataset.
 
 # Results
 
-I fitted 3 classification models – Logistic Regression, KNN and Decision Tree Classifier- on the training dataset and evaluated the performance of all models on validation dataset.
+I fitted 2 classification models –  KNN and Decision Tree Classifier - on the training dataset and evaluated the final performance of all the models on test data.
 Since this is an attrition problem I used recall or sensitivity as the evaluation metric because we are interested in knowing how our model is predicting the employees who are leaving.
-Decsion Tree Classifier gave the best recall (55%) on validation dataset and reported to be the best model to predict whether an employee will leave or not.
+Decsion Tree Classifier gave the best recall on test data and reported to be the best model to predict whether an employee will leave or not.
